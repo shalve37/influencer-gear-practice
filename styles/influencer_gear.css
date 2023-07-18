@@ -60,15 +60,13 @@ nav a:visited{
     border: none;
     border-radius: 41px;
     background: #E02C6D;
-}
-.banner-button p{
     color: #FFF;
     font-size: 1rem;
     font-weight: 700;
 }
 .banner-button:hover{
     cursor: pointer;
-    box-shadow: 2px 1px 5px;
+    box-shadow: 3px 2px 5px gray;
 }
 .banner-image{
     width: 475px;
@@ -140,7 +138,7 @@ nav a:visited{
 }
 .see-more{
     padding: 0px 0px 50px;
-    margin-right: 290px;
+    margin-right: 350px;
     display: flex;
     gap: 15px;
     justify-content: right;
@@ -153,7 +151,44 @@ nav a:visited{
     color:#E02C6D;
     text-decoration: none;
 }
-
+/* featured styles */
+.featured-container{
+    padding: 50px 130px 50px 130px;
+    display: flex;
+    gap: 50px;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.featured-text{
+    width: 600px;
+}
+.featured-title{
+    color: #0A0826;
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+.featured-description{
+    padding: 10px 0px;
+    color: #6C6C6C;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.join-button{
+    padding: 10px 20px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    border: none;
+    background: #E02C6D;
+    color: #FFF;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.join-button:hover{
+    cursor: pointer;
+    box-shadow: 3px 2px 5px gray;
+}
 
 
 
@@ -204,6 +239,13 @@ nav a:visited{
         flex-wrap: wrap;
         margin: 50px 20px;
     }
+    .card-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .see-more{
+        margin: 0px;
+        justify-content: center;
+    }
 }
 
 /* medium devices */
@@ -223,7 +265,28 @@ nav a:visited{
         width: 100%;
         flex-direction: column;
     }
+    .banner-text{
+        padding-bottom: 30px;
+    }
     .sponsors-container{
         flex-wrap: wrap;
+    }
+    .card-container{
+        margin-top: 30px;
+        padding: 10px;
+        grid-template-columns: repeat(2,350px);
+        grid-template-rows: repeat(2,475px);
+        gap: 30px;
+        align-items: center;
+    }
+    .card{
+        margin: 0px;
+        padding: 20px;
+    }
+    .see-more{
+        margin: 0px;
+        justify-content: center;
+        padding:50px 0px;
+
     }
 }
