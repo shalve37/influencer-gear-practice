@@ -293,6 +293,10 @@ footer a img{
     .featured-image img{
         width: 100%;
     }
+    footer{
+        width: 100%;
+        margin: 0px;
+    }
 }
 
 /* medium devices */
@@ -308,7 +312,7 @@ footer a img{
     }
     .banner-container{
         margin: 0px;
-        padding: 20px;
+        padding: 10px 0px;
         width: 100%;
         flex-direction: column;
     }
@@ -318,6 +322,9 @@ footer a img{
     .sponsors-container{
         flex-wrap: wrap;
     }
+    .collection-container{
+        margin: 0px;
+    }
     .card-container{
         margin-top: 30px;
         padding: 10px;
@@ -325,6 +332,7 @@ footer a img{
         grid-template-rows: repeat(2,475px);
         gap: 30px;
         align-items: center;
+        justify-content: center;
     }
     .card{
         margin: 0px;
@@ -352,5 +360,9 @@ footer a img{
     }
     .featured-image{
         justify-content: center;
+    }
+    footer{
+        margin: 0px auto;
+        width:100%;
     }
 }
