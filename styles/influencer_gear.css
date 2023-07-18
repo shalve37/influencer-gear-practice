@@ -192,7 +192,25 @@ nav a:visited{
 .featured-image{
     display: flex;
 }
-
+/* footer styles */
+footer{
+    padding: 40px 0px;
+    background: #0A0826;
+    text-align: center;
+}
+.footer-title{
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.footer-description{
+    padding: 20px 0px;
+    color: #D9DBE1;
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    
+}
 
 
 /* responsive styles */
